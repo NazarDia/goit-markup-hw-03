@@ -76,18 +76,17 @@ img {
   text-decoration: none;
   margin-right: 76px;
 }
-.web-logo .studio-logo {
+.web-logo {
   margin-right: 76px;
 }
 .navigation-list {
   list-style-type: none;
   display: flex;
   gap: 40px;
-}
-.navigation-item {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 .page-navigation {
   display: flex;
   align-items: center;
@@ -132,8 +131,9 @@ img {
 /* ============= HERO ============= */
 .hero {
   background-color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
 }
 .hero-logo {
   font-size: 56px;
@@ -170,7 +170,7 @@ img {
   padding-right: 472px;
   padding-left: 472px;
   width: 1440px;
-  height: 600px;
+  height: auto;
   flex-shrink: 0;
 }
 
