@@ -110,6 +110,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 /* ============= HEADER ============= */
+/* ============= HERO ============= */
 .hero {
   background-color: #2e2f42;
 }
@@ -120,6 +121,7 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   font-weight: 700;
+  max-width: 496px;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -129,11 +131,22 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
 }
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+/* ============= HERO ============= */
 .section {
   color: white;
 }
