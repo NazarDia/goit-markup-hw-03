@@ -1,9 +1,48 @@
+/* ============= COMMON STYLES ============= */
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+.container {
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
+}
+/* ============= COMMON STYLES ============= */
+/* ============= HEADER ============= */
+.page-header-container {
+  display: flex;
+  justify-content: space-between;
+}
 .web-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -23,11 +62,17 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 .navigation-list {
   list-style-type: none;
+  display: flex;
+  column-gap: 40px;
 }
-
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
 .navigation-link:hover,
 .navigation-link:focus {
   color: #404bbf;
@@ -42,6 +87,8 @@ body {
 }
 .social-list {
   list-style-type: none;
+  display: flex;
+  column-gap: 40px;
 }
 .navigation-social {
   font-style: normal;
@@ -57,7 +104,12 @@ body {
   color: #434455;
   text-decoration: none;
 }
-
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+/* ============= HEADER ============= */
 .hero {
   background-color: #2e2f42;
 }
