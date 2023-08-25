@@ -76,10 +76,17 @@ img {
   text-decoration: none;
   margin-right: 76px;
 }
+.web-logo .studio-logo {
+  margin-right: 76px;
+}
 .navigation-list {
   list-style-type: none;
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
+}
+.navigation-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .page-navigation {
   display: flex;
@@ -100,7 +107,7 @@ img {
 .social-list {
   list-style-type: none;
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .navigation-social {
   font-style: normal;
@@ -125,6 +132,8 @@ img {
 /* ============= HERO ============= */
 .hero {
   background-color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .hero-logo {
   font-size: 56px;
@@ -150,14 +159,14 @@ img {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
 }
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
   padding-right: 472px;
   padding-left: 472px;
   width: 1440px;
@@ -175,7 +184,7 @@ img {
 .description-list {
   list-style-type: none;
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .description-item {
   width: calc((100% - 3 * 24px) / 4);
@@ -209,12 +218,12 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .our-team-list {
   list-style-type: none;
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 .our-team-persona {
   color: #2e2f42;
@@ -235,6 +244,11 @@ img {
 .our-team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* ============= OUR TEAM============= */
 /* ============= PORTFOLIO============= */
@@ -258,7 +272,7 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   font-weight: 700;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-title {
   font-weight: 500;
@@ -288,6 +302,7 @@ img {
 .lower-part {
   background-color: #2e2f42;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .lower-logo {
   color: #f4f4fd;
@@ -304,9 +319,9 @@ img {
   letter-spacing: 0.02em;
   font-size: 16px;
   max-width: 264px;
-  padding-bottom: 100px;
 }
 .web-logo {
   display: inline-block;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
 }
+/* ============= FOOTER =============== */
